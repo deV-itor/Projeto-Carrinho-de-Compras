@@ -1,18 +1,40 @@
-*{
-    font-family:  Arial, Helvetica, sans-serif;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    border: red dashed 5px;
+h1 {
+    border: 3px solid red;
+    border-radius: 10px;
     margin: 30px 0;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
-footer{
-    background-color: gray;
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
     color: white;
     padding: 20px;
+    text-align: center;
 }
-#cash{
+
+#cash {
     color: green;
+    font-weight: bold;
+}
+
+img {
+    border: 6px solid #f9f9f9;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
