@@ -1,0 +1,18 @@
+*{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+h1{
+    border: red dashed 5px;
+    margin: 30px 0;
+    padding: 30px;
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+#cash{
+    color: green;
+}
